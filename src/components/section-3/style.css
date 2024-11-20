@@ -1,0 +1,30 @@
+.card-group{
+	position: relative;
+
+	display: grid;
+	gap: 12px;
+}
+
+.card-group-img {
+	border-radius: 20px;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-section {
+	width: 500px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.container-card{
+	display: flex;
+  	justify-content: center; /* Горизонтальное выравнивание */
+  	align-items: center; 
+}
+
+.section-title{
+	margin-top: 30px;
+	display: flex;
+  	justify-content: center; /* Горизонтальное выравнивание */
+  	align-items: center; 
+}

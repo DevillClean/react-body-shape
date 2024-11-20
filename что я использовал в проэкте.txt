@@ -1,0 +1,13 @@
+                        //хуки
+-use state
+-use effect - когда изменяется какоето значение переменной 
+-use params
+-useLocalStorage Использование localStorage и состояния useState в функциональном компоненте
+                        // писал кастомный блок
+-use local storage
+		                // props
+
+                        // ReactComponent
+                        // React Router DOM
+                        // ScrollToTop
+                        //утилиты detect darkMode

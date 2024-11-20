@@ -1,0 +1,32 @@
+.header-row {
+    position: fixed; /* Закрепляет элемент */
+    top: 0; /* Располагает элемент в верхней части экрана */
+    left: 0;
+    width: 100%; /* Растягивает на всю ширину */
+    /* background-color: #333; Цвет фона */
+    padding: 10px 20px; /* Внутренние отступы */
+    z-index: 1000; /* Приоритет слоя */
+}
+
+.header-list {
+	display: flex;
+	gap: 50px;
+
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 16px;
+
+}
+
+.header-img {
+	padding-top: 125px;
+	text-align: right;
+}
+
+
+
+.nav-list__link--active {
+	transition: all 0.2s ease-in;
+	opacity: 0.6;
+}
